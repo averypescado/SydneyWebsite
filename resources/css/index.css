@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('@videojs/themes/dist/fantasy/index.css');
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+    color: SeaGreen;
+}
+
+
+p,
+li {
+    font-size: 18px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.f1,
+.f2,
+.f3 {
+    font-family: 'Karla', sans-serif;
+}
+
+.f-headline {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+}
+
+.volk {
+    font-family: 'Vollkorn';
+    font-weight: lighter;
+}
+
+.big {
+    font-size: 4rem;
+}
+
+.main-image {
+    background-image: url('../assets/headshot.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reels {
+    width: 1000px
+}
+
+#experiment {
+    height: 2px;
+    flex: 1;
+    background: #000
+}
+
+.jic {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.assets {
+    white-space: nowrap;
+}
+
+.barger {
+    top: 50%;
+    /* position the top  edge of the element at the middle of the parent */
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    height: 95vh;
+}
+
+#projects {
+    scroll-margin-top: 50px;
+  }
+
+#sermons {
+    scroll-margin-top: 50px;
+  }
+
+#press {
+    scroll-margin-top: 50px;
+}
+
+#testimonials {
+    scroll-margin-top: 50px;
+}
+td a {
+    display:block;
+}
+
+
