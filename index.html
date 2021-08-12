@@ -2,182 +2,305 @@
 <html>
 
 <head>
-  <link href="./resources/css/index.css" type="text/css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
-
-  <title></title>
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+    <title></title>
 </head>
 
 <body>
-  <!-- Menu -->
-  <nav class="db dt-l w-100 border-box pa3 ph4 bg-gold  fixed">
-    <div class="db dtc-l v-mid w-100 w-75-l tc tr-l white">
-      <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l white" href="index.html" title="Home">Home</a>
-      <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="testimonials.html" title="Testimonials">Testimonials</a>
-      <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="press.html" title="Press">Press</a>
-      <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="about.html" title="About">About/Contact</a>
-    </div>
-  </nav>
-  <!-- Main section -->
-  <div class="flex-l justify-end main">
-    <div class="w-50-l ph5 pt6 flex">
-      <div class="w-100">
-        <div class="f-headline ttu">Sydney Mintz</div>
-        <div class="f3 mv4">
-          is a lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore
-          magna aliqua. Vestibulum morbi blandit cursus risus at ultrices. Ornare arcu odio ut sem nulla pharetra.
+    <!-- Menu -->
+    <nav class="db dt-l w-100 border-box pa3 ph4 bg-gold fixed z-max">
+        <div class="db dtc-l v-mid w-100 w-75-l tc tr-l white">
+            <a class="link dark-gray f6 f5-l dib mr3 mr4-l hover-white" href="#reel" title="Home">Reel</a>
+            <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#about" title="About">About</a>
+            <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#projects" title="About">Projects</a>
+            <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#sermons" title="Sermons">Sermons</a>
+            <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#press" title="Press">Press</a>
+            <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#testimonials" title="Testimonials">Testimonials</a>
         </div>
-      </div>
-    </div>
-    <div class="w-50-l main-image"></div>
-  </div>
-  <!-- Reels -->
-  <!-- Reel 
-  <div class="pv2 dib assets">
-    <div class="dib">
-      <div class="dib">
-        <img src="resources/assets/reel.png" width="200px" />
-      </div>
-      <div class="dib">
-        <img src="resources/assets/reel.png" width="200px" />
-      </div>
-      <div class="dib">
-        <img src="resources/assets/reel.png" width="200px" />
-      </div>
-      <div class="dib">
-        <img src="resources/assets/reel.png" width="200px" />
-      </div>
-      <div class="dib">
-        <img src="resources/assets/reel.png" width="200px" />
-      </div>
-      <div class="dib">
-        <img src="resources/assets/reel.png" width="200px" />
-      </div>
-      <div class="dib">
-        <img src="resources/assets/reel.png" width="200px" />
-      </div>
-      <div class="dib">
-        <img src="resources/assets/reel.png" width="200px" />
-      </div>
-      <div class="dib">
-        <img src="resources/assets/reel.png" width="200px" />
-      </div>
-      <div class="dib">
-        <img src="resources/assets/reel.png" width="200px" />
-      </div>
-    </div>
-    -->
-  <!-- Reel -->
-  <div class="f-headline pt3 ph4 pb3 white bg-black ttu">Get to know me &#128064</div>
-  <div class="w-100 bg-black center ph5 pb5">
-    <video width="100%" controls muted autoplay class="relative">
-      <source src="resources/assets/Sizzle.mp4" type="video/mp4" />
-    </video>
-  </div>
-  <!-- Projects -->
-  <div class="flex items-center ph4">
-    <span class="f-headline pt3 pb3 black dib ttu pr4">Projects</span>
-    <span id="experiment"></span>
-  </div>
-
-  <!-- Project 1-->
-  <div class="flex pa4">
-    <div class="w-50 pt5">
-      <div class="f1">You may think I'm funny but its not</div>
-      <div class="f4 pt3">
-        A One Woman Performance with Rabbi Sydney Mintz
-
-
-      </div>
-      <a class="f3 link dim ba bw1 ph3 pv2 mb2 dib mt4 black br4" href="projectpage1.html">Check it out</a>
-    </div>
-    <div class="w-50"><img src="resources/assets/shofar.JPG" /></div>
-  </div>
-  <!-- Project 2-->
-  <div class="flex pa4">
-    <div class="w-50 pt5">
-      <div class="f1">Late Shabbat</div>
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor
-      </div>
-      <a class="f3 link dim ba bw1 ph3 pv2 mb2 dib mt4 black br4" href="projectpage2.html">Check it out</a>
-    </div>
-    <div class="w-50"><img src="resources/assets/lateshabbat.png" /></div>
-  </div>
-  <!-- Project 3-->
-  <div class="flex pa4">
-    <div class="w-50 pt5">
-      <div class="f1">Reimagining End of Life</div>
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor
-      </div>
-      <a class="f3 link dim ba bw1 ph3 pv2 mb2 dib mt4 black br4" href="projectpage3.html">Check it out</a>
-    </div>
-    <div class="w-50"><img src="resources/assets/reimagine.png" /></div>
-  </div>
-  <!-- Project 4-->
-  <div class="flex pa4">
-    <div class="w-50 pt5">
-      <div class="f1">BimBam</div>
-      <div>
-        Bim Bam uses digital storytelling to spark connections to Judaism for learners of all ages. Rabbi Mintz
-        collaborated with BimBam to create the animated version of the Torah Story in Va-Yishlach!
-      </div>
-      <a class="f3 link dim ba bw1 ph3 pv2 mb2 dib mt4 black br4" href="projectpage4.html">Check it out</a>
-    </div>
-    <div class="w-50"><img src="resources/assets/BimBam.png" /></div>
-  </div>
-  <!-- Sermons-->
-  <div>
-    <div class="flex items-center ph4">
-      <span class="f-headline pt3 pb3 black dib ttu pr4">Sermons</span>
-      <span id="experiment"></span>
-    </div>
-    <!-- Sermon1-->
-    <div class="w-100 pa4 pt6">
-      <div class="pb4">
-        <div class="f1">We are the flood and we are the Ark</div>
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor
+    </nav>
+    <!-- Main section -->
+    <div class="flex justify-end main vh-100-ns">
+        <div class="w-50-ns ph5-ns flex">
+            <div class="w-100 pt7-ns pt7 mt2 tc">
+                <div class="big b ttu">Rabbi Sydney Mintz</div>
+                <div class="f4 mv4 volk">
+                    Performer // Consultant // Activist
+                </div>
+            </div>
         </div>
-      </div>
-      <video width="100%" controls>
-        <source src="resources/assets/Sizzle.mp4" type="video/mp4" />
-      </video>
+        <div class="w-50-ns main-image"></div>
     </div>
-    <!-- Sermon2-->
-    <div class="w-100 pa4 pt6">
-      <div class="pb4">
-        <div class="f1">Rosh Hashana Sermon</div>
-        <div class>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor
+
+    <div class="w-100-ns bg-black center ph2 ph6-l pb5-l pv5-l" id="reel">
+        <div id="container">
+            <video class="js-player" playsinline controls data-poster="/path/to/poster.jpg">
+                <source src="Sizzle.mp4" type="video/mp4" />          
+            </video>
         </div>
-      </div>
-      <div class="videoWrapper">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Mgd4gJZ4jCk" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-      </div>
     </div>
 
-    <!-- BigButton-->
-    <div class="flex">
-      <a class="f1 link dim ba bw1 ph3 pv2 mb2 dib mt4 black br4 center w-90 tc mb5" href="projectpage1.html">Check out
-        my other sermons on soundcloud! :)</a>
+    <!-- about -->
+    <div class="flex items-center ph5-ns ph2"  id="about">
+        <span class="f-headline-ns f2 pt4 pb3-ns black dib ttu pr4">About me</span>
+        <span id="experiment"></span>
     </div>
-  </div>
+    <div class="flex flex-column flex-row-ns pa5-ns pa2 pb5">
+        <div class="w-25-ns"><img src="resources/assets/mainimage.png" /></div>
+        <div class="w-75-ns pl4-ns f3 pt3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+            <br>
+            <br>
 
-  <!-- Footer -->
-  <footer class="footer pv5 ph4">
-    <div class="f1 white">Contact</div>
-  </footer>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+
+            <br>
+            <br>
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+
+        </div>
+    </div>
+    <!-- Projects -->
+    <div class id="projects">
+        <div class="flex items-center ph5-ns ph2" >
+            <span class="f-headline-ns f2 pt3 pb3-ns black dib ttu pr4">Projects</span>
+            <span id="experiment"></span>
+        </div>
+    </div>
+
+    <!-- Project 1-->
+    <div class="flex flex-column flex-row-ns pa5-ns ph2">
+        <div class="w-50-ns pt5 pr5-ns">
+            <div class="f1">You may think I'm funny but its not</div>
+            <div class="pt2 f4">
+                A One Woman Performance with Rabbi Sydney Mintz
+            </div>
+            <a class="f3 link dim ba bw1 ph3 pv2 mb2 dib mt4 black br4" href="projectpage1.html">Check it out</a>
+        </div>
+        <div class="w-50-ns"><img src="resources/assets/shofar.JPG" /></div>
+    </div>
+    <!-- Project 2-->
+    <div class="flex flex-column flex-row-ns pa5-ns ph2">
+        <div class="w-50-ns pt5 pr5-ns">
+            <div class="f1">Late Shabbat</div>
+            <div class="pt2 f4">
+                On the second Friday of every month we regularly welcome hundreds of Jews in their 20’s and 30’s
+                for an evening of community building, incredible music and great food and drink.
+            </div>
+            <a class="f3 link dim ba bw1 ph3 pv2 mb2 dib mt4 black br4" href="projectpage2.html">Check it out</a>
+        </div>
+        <div class="w-50-ns"><img src="resources/assets/lateshabbat.png" /></div>
+    </div>
+    <!-- Project 3-->
+    <div class="flex flex-column flex-row-ns pa5-ns ph2">
+        <div class="w-50-ns pt5 pr5-ns">
+            <div class="f1">Reimagining End of Life</div>
+            <div class="pt2 f4">
+                Inspiring experiences that help people explore death and celebrate life.
+            </div>
+            <a class="f3 link dim ba bw1 ph3 pv2 mb2 dib mt4 black br4" href="projectpage3.html">Check it out</a>
+        </div>
+        <div class="w-50-ns"><img src="resources/assets/reimagine.png" /></div>
+    </div>
+    <!-- Project 4-->
+    <div class="flex flex-column flex-row-ns pa5-ns ph2">
+        <div class="w-50-ns pt5 pr5-ns">
+            <div class="f1">BimBam</div>
+            <div class="pt2 f4">
+                Using digital storytelling to spark connections to Judaism for learners of all ages. Rabbi Mintz
+                collaborated with BimBam to create the animated version of the Torah Story in Va-Yishlach!
+            </div>
+            <a class="f3 link dim ba bw1 ph3 pv2 mb2 dib mt4 black br4" href="projectpage4.html">Check it out</a>
+        </div>
+        <div class="w-50-ns"><img src="resources/assets/BimBam.png" /></div>
+    </div>
+    <!-- Sermons-->
+    <div id="sermons">
+        <div class="flex items-center ph5-ns ph2">
+            <span class="f-headline-ns f2 pt3 pb3-ns black dib ttu pr4">Sermons</span>
+            <span id="experiment"></span>
+        </div>
+        <!-- Sermon1-->
+        <div class="w-100 pa5-ns pt3 ph2">
+            <div class="pb4">
+                <div class="f1">We are the flood and we are the Ark</div>
+                <div class="pt2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor
+                </div>
+            </div>
+            <div class="js-player">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_ZVHMR4pcd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- Sermon2-->
+        <div class="w-100 pa5-ns pt5 ph2">
+            <div class="pb4">
+                <div class="f1">Rosh Hashana Sermon</div>
+                <div class="pt2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor
+                </div>
+            </div>
+            <div class="js-player">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Mgd4gJZ4jCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+        <!-- BigButton-->
+        <div class="flex">
+            <a class="f1-ns f3 link dim ba bw1 ph2 pv2 mb2 dib mt4 black br4 center w-90 tc mb5"
+                href="https://soundcloud.com/congregation-emanu-el/sets/rabbi-sydney-mintz" target="_blank">Check out my other sermons
+                on
+                soundcloud! :)</a> </div>
+    </div> 
+    <!-- press -->
+    <div class="flex items-center ph5-ns ph2" id="press">
+        <span class="f-headline-ns f2 pt3 pb3-ns black dib ttu pr4">In the News</span>
+        <span id="experiment"></span>
+    </div>
+
+    <a href="https://www.kqed.org/news/11811846/restaurants-denied-insurance-claims-connecting-spiritually-during-pandemic" target="_blank" class="link black">
+        <div class="flex bb b--black items-start items-center hover-bg-green hover-white ph5-ns ph2">
+            <div class="pv3 pr3-ns mr0-ns mr4 f6 w-10 v-btm h-100 pl2">KQED</div>
+            <div class="pv3 pr3 f1-ns f3 w-70">Connecting Spiritually during pandemic</div>
+            <div class="pv3 f1-ns f3 w-20 tr">&#8594</div>
+        </div>
+    </a>
+
+    <a href="https://www.jweekly.com/2009/06/05/tears-of-a-rabbis-father" target="_blank" class="link black">
+        <div class="flex bb b--black items-start items-center hover-bg-green hover-white ph5-ns ph2">
+            <div class="pv3 pr3-ns mr0-ns mr4 f6 w-10 v-btm h-100 pl2">JWeekly</div>
+            <div class="pv3 pr3 f1-ns f3 w-70">Tears of a rabbis father</div>
+            <div class="pv3 f1-ns f3 w-20 tr">&#8594</div>
+        </div>
+    </a>
+
+    <a href="https://www.sfgate.com/magazine/article/FaceTime-Sydney-Mintz-3307242.php" target="_blank" class="link black">
+        <div class="flex bb b--black items-start items-center hover-bg-green hover-white ph5-ns ph2">
+            <div class="pv3 pr3-ns mr0-ns mr4 f6 w-10 v-btm h-100 pl2">SF Gate</div>
+            <div class="pv3 pr3 f1-ns f3 w-70">FaceTime / Sydney Mintz</div>
+            <div class="pv3 f1-ns f3 w-20 tr">&#8594</div>
+        </div>
+    </a>
+
+    <a href="https://www.kqed.org/forum/2010101867960/eleven-killed-in-pittsburgh-synagogue-shooting" target="_blank" class="link black">
+        <div class="flex bb b--black items-start items-center hover-bg-green hover-white ph5-ns ph2">
+            <div class="pv3 pr3-ns mr0-ns mr4 f6 w-10 v-btm h-100 pl2">KQED</div>
+            <div class="pv3 pr3 f1-ns f3 w-70">Eleven Killed in Pittsburgh Synagogue Shooting</div>
+            <div class="pv3 f1-ns f3 w-20 tr">&#8594</div>
+        </div>
+    </a>
+
+    <a href="https://awiderbridge.org/honoring-rabbi-sydney-mintz" target="_blank" class="link black">
+        <div class="flex bb b--black items-start items-center hover-bg-green hover-white ph5-ns ph2">
+            <div class="pv3 pr3-ns mr0-ns mr4 f6 w-10 v-btm h-100 pl2">A Wider Bridge</div>
+            <div class="pv3 pr3 f1-ns f3 w-70">Honoring Rabbi Sydney Mintz</div>
+            <div class="pv3 f1-ns f3 w-20 tr">&#8594</div>
+        </div>
+    </a>
+
+    <a href="https://www.jta.org/2018/01/11/united-states/pulled-pork-kugel-and-other-transgressive-traditions-from-the-ultimate-treif-banquet" target="_blank" class="link black">
+        <div class="flex bb b--black items-start items-center hover-bg-green hover-white ph5-ns ph2">
+            <div class="pv3 pr3-ns mr0-ns mr4 f6 w-10 v-btm h-100 pl2">JTA</div>
+            <div class="pv3 pr3 f1-ns f3 w-70">Pulled Pork Kugel and other transgressive traditions from the ultimate treif banquet
+            </div>
+            <div class="pv3 f1-ns f3 w-20 tr">&#8594</div>
+        </div>
+    </a>
+
+    <a href="https://lilith.org/2009/06/unsung-newscycles/" target="_blank" class="link black">
+        <div class="flex bb b--black items-start items-center hover-bg-green hover-white ph5-ns ph2">
+            <div class="pv3 pr3-ns mr0-ns mr4 f6 w-10 v-btm h-100 pl2">Lilith</div>
+            <div class="pv3 pr3 f1-ns f3 w-70">Unsung Newscycles</div>
+            <div class="pv3 f1-ns f3 w-20 tr">&#8594</div>
+        </div>
+    </a>
+
+    <a href="https://rubinmuseum.org/spiral/a-manual-for-the-momentary-diy-rituals-from-reimagine-end-of-life" target="_blank" class="link black">
+        <div class="flex bb b--black items-start items-center hover-bg-green hover-white ph5-ns ph2">
+            <div class="pv3 pr3-ns mr0-ns mr4 f6 w-10 v-btm h-100 pl2">Bay Area Reporter</div>
+            <div class="pv3 pr3 f1-ns f3 w-70">A Manual for the Momentary: DIY Rituals From
+                Reimagine End of
+                Life</div>
+                <div class="pv3 f1-ns f3 w-20 tr">&#8594</div>
+        </div>
+    </a>
+
+    <a href="https://www.ebar.com/news///240307" target="_blank" class="link black">
+        <div class="flex bb b--black items-start items-center hover-bg-green hover-white ph5-ns ph2">
+            <div class="pv3 pr3-ns mr0-ns mr4 f6 w-10 v-btm h-100 pl2">Bay Area Reporter</div>
+            <div class="pv3 pr3 f1-ns f3 w-70">Israeli gay leaders visit SF</div>
+            <div class="pv3 f1-ns f3 w-20 tr">&#8594</div>
+        </div>
+    </a>
+
+    <div class="flex items-center ph5-ns ph2" id="testimonials">
+        <span class="f-headline-ns f2 pt4 pb3-ns black dib ttu pr4">Testimonials</span>
+        <span id="experiment"></span>
+    </div>
+
+    <div class="flex flex-column flex-row-ns pa5-ns ph2">
+        <div class="w-75-ns f2-ns f3">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum."
+            <br>
+            <br>
+            <div class="f4">-24kgoldn</div>
+        </div>
+        <div class="w-25-ns"><img src="resources/assets/goldn.JPG" /></div>
+    </div>
+
+    <div class="flex flex-column-reverse flex-row-ns pa5-ns ph2">
+        <div class="w-25-ns"><img src="resources/assets/doug.png" /></div>
+        <div class="w-75-ns pl4-ns f2-ns f3">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum."
+        </div>
+    </div>
+    <div class="flex flex-column flex-row-ns pa5-ns ph2">
+        <div class="w-75-ns pr4-ns f2-ns f3">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum."
+        </div>
+        <div class="w-25-ns"><img src="resources/assets/anne.JPG" /></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="pv3 ph4 bt b--black">
+        <div class="f1">Contact</div>
+    </footer>
+
+<script src="https://cdn.plyr.io/3.6.8/plyr.js">
+</script>
+<script>
+    const players = Plyr.setup('.js-player');</script>
 </body>
 
 </html>
 
-<script src="video.js"></script>
+
