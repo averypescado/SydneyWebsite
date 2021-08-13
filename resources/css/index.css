@@ -42,11 +42,18 @@ a {
     font-size: 4rem;
 }
 
+.homepage{
+    width: 50%;
+    height:auto;
+}
+
 .main-image {
     background-image: url('../assets/headshot.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+
 }
 
 .reels {
