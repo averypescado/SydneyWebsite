@@ -2,10 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 @import url('@videojs/themes/dist/fantasy/index.css');
 
+@font-face {
+    font-family: 'Sporting_Grotesque';
+    src: url('Sporting_Grotesque-Bold_web.woff2') format('woff2');
+  }
+
 * {
     font-family: Arial, sans-serif;
 }
 
+.home_font {
+    font-family: 'Sporting_Grotesque', sans-serif;
+}
 
 h1 {
     color: SeaGreen;
@@ -48,8 +56,8 @@ a {
 }
 
 .main-image {
-    background-image: url('../assets/headshot.jpeg');
-    background-position: center;
+    background-image: url('../assets/homepageheadshot.jpeg');
+    background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
 
